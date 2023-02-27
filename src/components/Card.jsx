@@ -1,14 +1,14 @@
-//import React from 'react'
-//aca no uso react asi q no lo necesito, no importar algo q no use
+import './Card.css'
 
-const Card = (props) => {
-
-    console.log(props);
+const Card = ({pizza}) => {
   return (
-    <div>
-      <h3>Titulo de Card: Elemento n° {props.elemento} </h3>
+    <div key={pizza.id} className='card'>
+      {console.log(pizza)};
+      <img src={pizza.img} alt="" className='cardImg' />
+      <h3 className='cardTitle'>{pizza.tipo}</h3>
+      <h4 className='cardPrice'>{pizza.precio}</h4>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

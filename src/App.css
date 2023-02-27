@@ -40,25 +40,3 @@
 .read-the-docs {
   color: #888;
 }
-
-h1{
-  color: #FF725E;
-}
-
-h2{
-  font-size: 2rem;
-  color: #96efee;
-}
-
-ul{
-  list-style: none;
-  color: aquamarine;
-}
-
-#linea{
-  border-color: #FF725E;
-}
-
-.fuente{
-  display: none;
-}

@@ -1,0 +1,17 @@
+.card{
+    width: 30vw;
+    border: 1vw solid salmon;
+    margin-bottom: 2vw;
+    border-radius: 1.5vw;
+    background-color: rgb(194, 84, 72);
+}
+
+.cardImg{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 1.5vw;
+}
+
+.cardTitle{}
+
+.cardPrice{}
